@@ -48,5 +48,10 @@ return [
             "url" => "verktyg",
             "title" => "Verktyg och möjligheter för utveckling.",
         ],
+        [
+          "text" => "Test",
+          "url" => "test",
+          "title" => "Testing playground for this page",
+        ] 
     ],
 ];
