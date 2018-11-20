@@ -1,0 +1,143 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+
+.inner-wrap {
+  max-width: 1200px;
+  margin:0 auto;
+  padding: 30px 15px;
+}
+
+.inner-wrap .row {
+  display: flex;
+}
+
+.region-main {
+  padding: 0 10px;
+  flex: 2;
+}
+
+/**
+ * Nav layout
+ */
+
+//  /* Hide submenu, leave this to kmom02 */
+// .rm-desktop ul {
+//   display: none;
+// }
+
+// /* Hide responsive/mobile menu, leave this to kmom02 */
+// .rm-navbar-max,
+// .region-header-col-3 {
+//   display: none;
+// }
+
+.site-logo img {
+  display: none;
+}
+
+ .region-header {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background: @color-dark;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+}
+
+ .my-navbar {
+  list-style: none;
+  display: flex;
+}
+
+.my-navbar li {
+  padding: 0 10px;
+}
+
+.my-navbar li a {
+  color: @color-white;
+  text-decoration: none;
+}
+
+/**
+ * Sidebar layout
+ */
+
+.wrap-sidebar {
+  flex: 1;
+}
+
+/**
+ * List layout
+ */
+
+ ul.toc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  padding: 0;
+}
+
+ul.toc li {
+  display: flex;
+  border: 1px solid @color-mint;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 5px;
+}
+
+ul.toc li a {
+  color: @color-mint;
+  text-decoration: none; 
+}
+
+/**
+ * Footer layout
+ */
+
+.region-footer {
+  background: @color-dark;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+}
+
+.region-footer .footer-column-wrapper {
+  color: @color-white;
+  display: flex;
+}
+
+.footer-column {
+  flex: 1;
+}
+
+.footer-column a {
+  color: @color-white;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  border-bottom: 2px solid @color-white;
+}
+
+.site-footer {
+  text-align: center;
+  color: @color-white;
+}
+
