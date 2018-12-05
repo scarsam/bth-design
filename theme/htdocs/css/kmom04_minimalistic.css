@@ -4338,7 +4338,34 @@ template {
   background-image: url("../img/theme/magic-number-24px.png");
 }
 body {
-  font: 18px/1.33333333 "sans-serif";
+  color: #000000;
+  background-color: #FFFFFF;
+  font: 18px/1.33333333 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2A248A;
+}
+a {
+  color: #2A248A !important;
+}
+.outer-wrap-footer {
+  border-top: 1px solid #2A248A;
+  background-color: #FFFFFF;
+}
+.outer-wrap-header {
+  border-bottom: 1px solid #2A248A;
+  background-color: #FFFFFF;
+}
+.rm-desktop li ul {
+  background-color: #FFFFFF;
+}
+ul.toc li {
+  border: 1px solid #2A248A;
 }
 img {
   max-width: 100%;
@@ -4360,7 +4387,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }

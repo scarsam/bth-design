@@ -4338,7 +4338,34 @@ template {
   background-image: url("../img/theme/magic-number-24px.png");
 }
 body {
-  font: 18px/1.33333333 "sans-serif";
+  color: #272D2D;
+  background-color: #F6F8FF;
+  font: 18px/1.33333333 Cambria, Georgia, Times, 'Times New Roman', serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #50514F;
+}
+a {
+  color: #A846A0 !important;
+}
+.outer-wrap-footer {
+  border-top: 1px solid #A846A0;
+  background-color: #23CE6B;
+}
+.outer-wrap-header {
+  border-bottom: 1px solid #A846A0;
+  background-color: #23CE6B;
+}
+.rm-desktop li ul {
+  background-color: #23CE6B;
+}
+ul.toc li {
+  border: 1px solid #A846A0;
 }
 img {
   max-width: 100%;
@@ -4360,7 +4387,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: monospace;
   margin-top: 24px;
   margin-bottom: 24px;
 }

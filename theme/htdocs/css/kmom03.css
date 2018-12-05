@@ -4856,18 +4856,11 @@ hr::after {
 .inner-wrap-header .row {
   margin-bottom: 0;
 }
-.outer-wrap-header {
-  background: #607d8b;
-}
 .region-header {
   align-items: center;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
-  background: #607d8b;
   display: flex;
-}
-.region-header .rm-desktop li ul {
-  background-color: #607d8b;
 }
 .region-header-col-1 {
   display: inline;
@@ -4937,11 +4930,9 @@ ul.toc {
   padding-left: 0;
 }
 ul.toc li {
-  border: 1px solid #519D9E;
   margin-bottom: 10px;
 }
 ul.toc li a {
-  color: #519D9E;
   text-decoration: none;
   padding: 5px;
 }
@@ -4950,9 +4941,6 @@ ul.toc li a {
  */
 .inner-wrap-footer .row {
   margin-bottom: 0;
-}
-.outer-wrap-footer {
-  background: #607d8b;
 }
 .footer-column {
   display: inline;
@@ -4969,9 +4957,6 @@ ul.toc li a {
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
   }
-}
-.footer-column a:hover {
-  border-bottom: 2px solid #fff;
 }
 .site-footer {
   display: inline;
