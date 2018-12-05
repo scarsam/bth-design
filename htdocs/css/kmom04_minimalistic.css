@@ -4353,6 +4353,10 @@ h6 {
 a {
   color: #2A248A !important;
 }
+.table-colors tr,
+.table-colors tr:hover {
+  box-shadow: none;
+}
 .outer-wrap-footer {
   border-top: 1px solid #2A248A;
   background-color: #FFFFFF;

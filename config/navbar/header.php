@@ -34,7 +34,12 @@ return [
                       "text" => "Kmom03",
                       "url" => "redovisning/kmom03",
                       "title" => "Redovisning för kmom03.",
-                  ],
+                    ],
+                    [
+                      "text" => "Kmom04",
+                      "url" => "redovisning/kmom04",
+                      "title" => "Redovisning för kmom04.",
+                    ],
                 ],
             ],
         ],
@@ -57,6 +62,11 @@ return [
           "text" => "Test",
           "url" => "test",
           "title" => "Testing playground for this page",
+        ],
+        [
+          "text" => "Rapport",
+          "url" => "rapport",
+          "title" => "Sida för mina rapporter",
         ] 
     ],
 ];
