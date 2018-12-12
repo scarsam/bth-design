@@ -4340,7 +4340,7 @@ template {
 body {
   color: #272D2D;
   background-color: #F6F8FF;
-  font: 18px/1.33333333 Cambria, Georgia, Times, 'Times New Roman', serif;
+  font: 16px/1.5 Cambria, Georgia, Times, 'Times New Roman', serif;
 }
 h1,
 h2,
@@ -4405,7 +4405,7 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.12280702;
+  line-height: 1.26315789;
   font-weight: normal;
   border-bottom: 1px solid #666;
   margin-bottom: 23px;
@@ -4423,7 +4423,7 @@ h1 + h2 {
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.42222222;
+  line-height: 1.6;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #CCC;
@@ -4433,7 +4433,7 @@ h2 + h3 {
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.52380952;
+  line-height: 1.71428571;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
@@ -4443,7 +4443,7 @@ h3 + h4 {
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.77777778;
+  line-height: 1;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
@@ -4453,7 +4453,7 @@ h4 + h5 {
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.06666667;
+  line-height: 1.2;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
@@ -4462,7 +4462,7 @@ h5 + h6 {
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.06666667;
+  line-height: 1.2;
   margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
@@ -4612,7 +4612,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.52380952;
+  line-height: 1.71428571;
   text-align: left;
   font-style: italic;
 }
